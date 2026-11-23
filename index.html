@@ -8,11 +8,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600;800&family=Oswald:wght@500;700&display=swap" rel="stylesheet" />
+
+  <!-- HEADER & FOOTER JS (they inject their own HTML + CSS) -->
+  <script src="header.js" defer></script>
+  <script src="footer.js" defer></script>
 </head>
 <body>
-
-  <!-- HEADER INJECTED HERE -->
-  <div id="header-slot"></div>
 
   <!-- ============ HERO ============ -->
   <section class="hero" id="home">
@@ -138,12 +139,6 @@
       </div>
     </div>
   </section>
-
-  <!-- FOOTER INJECTED HERE -->
-  <div id="footer-slot"></div>
-
-  <!-- Include loader -->
-  <script src="include.js"></script>
 
   <!-- ============ INDEX CSS ============ -->
   <style>
